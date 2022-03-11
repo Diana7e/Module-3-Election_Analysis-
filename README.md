@@ -1,6 +1,4 @@
 # Module-3-Election_Analysis-
-# Module-3-Election_Analysis-
-# Election_Analysis
 
 ## Overview of the Project
 
@@ -64,4 +62,8 @@ The analysis of the election shows that:
 
 ## Election Audit Summary
 
-The Python script created for completing the election audit can be used for any election with minor modifications. Auditing election results at a state-level or even at a country level can be accomplished by adding additional for loops and conditional statement.  Additional variables would need to be created to store and track state-level election vote count information.  The existing for loop which is used to read rows from the reader can be modiefied by adding conditional statements to check and track state-level vote counts, similar to  what we did for tracking county-level vote counts.  A new for loop would need to be written to print the output to the terminal and to the file for displaying state-level vote counts. The for loop would include conditional statements to determine the state-level winner, similar to how county level winner was determined.
+Given that the file analyzed contained all the election results for a local congressional election in Colorado, the audit was performed with a python code in under 3 seconds.  The code shows the election results by candidate and by County, giving the number of votes as well the percentage of votes for each case, resulting in determining the winner.  With this kind of audit, larger public elections can be audited within seconds of having the results file to be analyzed, even for state or federal elections.
+
+The following are modifications that could be implemented in other type of elections:
+- Include data for different types of positions being elected: Governor, Lieutenant Governor, Secretary of State, and Attorney General, State Supreme Court Justices, Comptroller, Treasurer, State Senators, and State Legislators.
+- Information about voters could be include to categorize by age, gender, zip codes, etcetera.
